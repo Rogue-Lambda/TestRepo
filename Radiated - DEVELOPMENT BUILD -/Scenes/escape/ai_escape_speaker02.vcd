@@ -50,14 +50,14 @@ actor "Aperture_AI"
     }
   }
 }
-
+mapname "maps\testchmb_a_15.bsp"
 scalesettings
 {
-  "GestureTool" "100"
-  "ExpressionTool" "100"
+  "CChoreoView" "100"
   "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
   "RampTool" "100"
-  "CChoreoView" "40"
 }
 fps 60
 snap off

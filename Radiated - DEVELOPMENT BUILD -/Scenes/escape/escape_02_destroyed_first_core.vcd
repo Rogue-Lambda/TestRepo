@@ -84,7 +84,7 @@ actor "Aperture_AI"
     }
     event firetrigger "backtorandom4"
     {
-      time 26.521001 -1.000000
+      time 26.521002 -1.000000
       param "2"
     }
     event firetrigger "poison2"
@@ -104,20 +104,19 @@ actor "Aperture_AI"
     }
     event firetrigger "backtorandom6"
     {
-      time 34.400000 -1.000000
+      time 34.400002 -1.000000
       param "2"
     }
   }
 }
-
+mapname "maps\escape_02.bsp"
 scalesettings
 {
-  "CChoreoView" "40"
-  "RampTool" "100"
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
   "ExpressionTool" "100"
   "GestureTool" "100"
-  "SceneRampTool" "100"
+  "RampTool" "100"
 }
 fps 60
 snap off
-ignorePhonemes off

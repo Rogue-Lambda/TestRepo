@@ -11,7 +11,7 @@ actor "Kleiner"
     event speak "kl_fellowcitizens02"
     {
       time 0.067312 32.953545
-      param "vo\episode_1\intro\kl_fellowcitizens02.wav"
+      param "ep_01.kl_fellowcitizens02"
       fixedlength
       tags
       {

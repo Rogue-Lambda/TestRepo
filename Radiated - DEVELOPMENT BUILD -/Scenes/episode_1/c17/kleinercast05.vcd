@@ -11,7 +11,7 @@ actor "Kleiner"
     event speak "kl_fellowcitizens06"
     {
       time 0.138035 12.619736
-      param "vo\episode_1\intro\kl_fellowcitizens06.wav"
+      param "ep_01.kl_fellowcitizens06"
       fixedlength
       cctype "cc_master"
       cctoken ""
@@ -19,7 +19,7 @@ actor "Kleiner"
     event speak "kl_fellowcitizens07"
     {
       time 10.209459 26.554380
-      param "vo\episode_1\intro\kl_fellowcitizens07.wav"
+      param "ep_01.kl_fellowcitizens07"
       fixedlength
       tags
       {

@@ -11,7 +11,7 @@ actor "Kleiner"
     event speak "kl_isthison"
     {
       time 5.583519 20.079552
-      param "vo\episode_1\intro\kl_isthison.wav"
+      param "ep_01.kl_isthison"
       fixedlength
       cctype "cc_master"
       cctoken ""
@@ -19,7 +19,7 @@ actor "Kleiner"
     event speak "kl_carefullamarr02"
     {
       time 1.590834 6.196617
-      param "vo\episode_1\intro\kl_carefullamarr02.wav"
+      param "ep_01.kl_carefullamarr02"
       fixedlength
       cctype "cc_master"
       cctoken ""
@@ -27,7 +27,7 @@ actor "Kleiner"
     event speak "kl_carefullamarr01"
     {
       time 0.220000 4.362834
-      param "vo\episode_1\intro\kl_carefullamarr01.wav"
+      param "ep_01.kl_carefullamarr01"
       fixedlength
       cctype "cc_master"
       cctoken ""

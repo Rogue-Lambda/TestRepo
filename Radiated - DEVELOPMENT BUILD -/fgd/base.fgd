@@ -3803,7 +3803,7 @@
 //
 //-------------------------------------------------------------------------
 
-@PointClass color(0 0 255) sidelist(sides) iconsprite("editor/env_cubemap.vmt") = env_cubemap : 
+@PointClass color(0 0 255) size(-1 -1 -64, 1 1 -8) sidelist(sides) iconsprite("editor/env_cubemap.vmt") = env_cubemap : 
 	"An entity that creates a sample point for the Cubic Environment Map."
 [
 	cubemapsize(choices) : "Cubemap Size" : 0 =

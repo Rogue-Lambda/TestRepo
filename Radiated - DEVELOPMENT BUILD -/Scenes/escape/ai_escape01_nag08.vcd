@@ -3,22 +3,25 @@ actor "Aperture_AI"
 {
   channel "audio"
   {
-    event speak "escape_01_part1_nag08-1"
+    event speak "Portal.escape_01_part1_nag08-1"
     {
-      time 0.100000 5.100000
+      time 0.000000 2.526395
       param "Portal.escape_01_part1_nag08-1"
       fixedlength
       cctype "cc_master"
       cctoken ""
-      cc_noattenuate
     }
   }
 }
 
 scalesettings
 {
-  "CChoreoView" "100"
+  "CChoreoView" "144"
   "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
 }
 fps 60
 snap off
+ignorePhonemes off

@@ -16,6 +16,62 @@
 	
 ]
 
+@PointClass base(Weapon) studio("models/weapons/w_guardgun.mdl") = weapon_cguard: "Combine Guard Gun" []
 @PointClass base(Weapon) studio("models/weapons/w_slam.mdl") = weapon_slam : "S.L.A.M." []
 @NPCClass base(BaseNPC) studio("models/bullsquid.mdl") = npc_bullsquid : "Bullsquid" []
 @NPCClass base(BaseNPC) studio("models/xenians/houndeye.mdl") = npc_houndeye : "Houndeye" []
+@SolidClass base(Trigger) = trigger_super_armor :
+	"A trigger volume that gives user Armor to 500."
+[
+	// Outputs
+	output OnTrigger(void) : "Fired whenever the trigger is activated."
+]
+
+////////////////////
+///mutaed_antlion
+///////////////////
+
+@NPCClass base(BaseNPC) studio("models/mutated_antlion.mdl") sphere() = npc_mutated_antlion :
+	"Antlions will run away from ai_sound, type: Thumper."
+[
+	startburrowed(choices) : "Start Burrowed" : "No" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	spawnflags(Flags) =
+	[
+		65536 : "Burrow when eluded" : 0
+		131072 : "Use Ground Checks" : 0
+		262144 : "Worker Type" : 0
+	]
+
+	radius(integer) : "Alert Radius" : 256
+	eludedist(integer) : "Distance until eluded" : 1024 : "Only available when Burrow When Eluded is flagged"
+	
+	ignorebugbait(choices) : "Ignore Bugbait" : "No" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	unburroweffects(choices) : "Suppress unburrow effects" : "No" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	input Unburrow(void) : "Unburrow from the ground"
+	input Burrow(void) : "Burrow into the ground"
+	input BurrowAway(void) : "Burrow into the ground and remove the antlion"
+	input FightToPosition(string) : "Fight to position"
+	input EnableJump(void) : "Allow non-navigational jumping"
+	input DisableJump(void) : "Disallow non-navigational jumping"
+	input IgnoreBugbait(void) : "Ignore bugbait"
+	input HearBugbait(void) : "Hear bugbait"
+
+	output	OnReachedFightGoal(void) : "Fires when the antlion reaches his specified fight-to location"
+	output	OnUnBurrowed(void) : "Fires when the antlion unburrows"
+
+]

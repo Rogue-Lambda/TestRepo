@@ -1,0 +1,34 @@
+// Choreo version 1
+actor "cp_tom"
+{
+  channel "action"
+  {
+    event moveto "target_1"
+    {
+      time -0.017544 7.298246
+      param "!target1"
+      param2 "Walk"
+    }
+  }
+  channel "aiming"
+  {
+    event gesture "aiming"
+    {
+      time -0.008772 7.315790
+      param "Idle_SMG1_Aim_Alert"
+      sequenceduration 2.000000
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "76"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

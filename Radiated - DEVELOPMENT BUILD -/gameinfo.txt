@@ -4,6 +4,8 @@
 	title 		"Radiated"
 	title2		""
 	supportsvr	1
+	InstancePath "mapsrc/instances"
+	GameData	"halflife2.fgd"
 
 	type		singleplayer_only
 
@@ -51,11 +53,23 @@
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
-			game_lv				hl2/hl2_lv.vpk
-			game+mod			ep2/ep2_english.vpk
-			game+mod			ep2/ep2_pak.vpk
+			//game_lv				hl2/hl2_lv.vpk
+		//	game+mod			ep2/ep2_english.vpk
+		//	game+mod			ep2/ep2_pak.vpk
+		//	game				|all_source_engine_paths|episodic/ep1_english.vpk
+		//	game				|all_source_engine_paths|episodic/ep1_sound_vo_english.vpk
+		//	game				|all_source_engine_paths|episodic/ep1_pak.vpk
+		//	game				|all_source_engine_paths|hl2/hl2_english.vpk
+		//	game				|all_source_engine_paths|hl2/hl2_pak.vpk
+		//	game				|all_source_engine_paths|hl2/hl2_textures.vpk
+		//	game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
+		//	game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
+		//	game				|all_source_engine_paths|hl2/hl2_misc.vpk
+		//	platform			|all_source_engine_paths|platform/platform_misc.vpk
+		game_lv				hl2/hl2_lv.vpk
+			game				|all_source_engine_paths|ep2/ep2_english.vpk
+			game				|all_source_engine_paths|ep2/ep2_pak.vpk
 			game				|all_source_engine_paths|episodic/ep1_english.vpk
-			game				|all_source_engine_paths|episodic/ep1_sound_vo_english.vpk
 			game				|all_source_engine_paths|episodic/ep1_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_english.vpk
 			game				|all_source_engine_paths|hl2/hl2_pak.vpk
@@ -63,14 +77,16 @@
 			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
 			game				|all_source_engine_paths|hl2/hl2_misc.vpk
-			platform			|all_source_engine_paths|platform/platform_misc.vpk
+	  		game				|all_source_engine_paths|sourcetest/sourcetest_pak.vpk // sourcetest has Lost Coast content
+	  		game				|all_source_engine_paths|lostcoast/lostcoast_pak.vpk // For those using Hammer with Half-Life 2's bin
+			platform				|all_source_engine_paths|platform/platform_misc.vpk
 
 			// Add the HL2 directory as a game search path.  This is also where where writes
 			// to the "game" path go.
 			game+game_write		ep2
 
 			// Where the game's binaries are
-			gamebin				episodic/bin
+			gamebin				Radiated_alpha/bin
 
 			// Last, mount in shared HL2 loose files
 			game				|all_source_engine_paths|episodic

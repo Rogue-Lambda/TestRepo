@@ -42,15 +42,14 @@ actor "Aperture_AI"
     }
   }
 }
-
+mapname "maps\escape_02.bsp"
 scalesettings
 {
-  "CChoreoView" "24"
-  "RampTool" "100"
+  "CChoreoView" "100"
   "SceneRampTool" "100"
   "ExpressionTool" "100"
   "GestureTool" "100"
+  "RampTool" "100"
 }
 fps 60
 snap off
-ignorePhonemes off

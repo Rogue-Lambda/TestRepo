@@ -3,6 +3,7 @@ lights/fluorescentcool001b	236 255 182 350
 lights/fluorescentcool002a	189 231 232 400
 lights/fluorescentcool002b	236 255 182 400
 lights/fluorescentcool003a	189 231 232 300
+lights/fluorescent_rad 		253 241 219 300 // custom
 lights/fluorescentwarm001a	239 216 193 350
 lights/fluorescentwarm002a	239 216 193 400
 lights/fluorescentwhite001a	245 245 245 350
@@ -16,7 +17,7 @@ lights/HIDcool001a		145 222 172 650
 lights/HIDcool001b		205 232 255 650
 lights/HIDwarm001a		255 201 116 650
 
-lights/white001			250 240 205 1000
+lights/white001			250 240 205 150
 lights/white002			189 233 247 425
 lights/white003			232 246 190 350
 lights/white004			170 228 247 425

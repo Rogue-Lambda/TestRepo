@@ -11,7 +11,7 @@ actor "Kleiner"
     event speak "kl_fellowcitizens21"
     {
       time 0.995213 10.992378
-      param "vo\episode_1\intro\kl_fellowcitizens21.wav"
+      param "ep_01.kl_fellowcitizens21"
       param2 ".55"
       fixedlength
       cctype "cc_master"
@@ -20,7 +20,7 @@ actor "Kleiner"
     event speak "kl_fellowcitizens22"
     {
       time 8.566654 18.877289
-      param "vo\episode_1\intro\kl_fellowcitizens22.wav"
+      param "ep_01.kl_fellowcitizens22"
       fixedlength
       cctype "cc_master"
       cctoken ""
@@ -28,7 +28,7 @@ actor "Kleiner"
     event speak "kl_fellowcitizens23"
     {
       time 16.709497 22.175869
-      param "vo\episode_1\intro\kl_fellowcitizens23.wav"
+      param "ep_01.kl_fellowcitizens23"
       param2 ".45"
       fixedlength
       cctype "cc_master"
@@ -37,7 +37,7 @@ actor "Kleiner"
     event speak "kl_fellowcitizens24"
     {
       time 20.042841 31.003635
-      param "vo\episode_1\intro\kl_fellowcitizens24.wav"
+      param "ep_01.kl_fellowcitizens24"
       param2 ".8"
       fixedlength
       cctype "cc_master"

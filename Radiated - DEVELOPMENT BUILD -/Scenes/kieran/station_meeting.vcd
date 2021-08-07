@@ -5,7 +5,7 @@ actor "kieran"
   {
     event speak "npc_kieran.talk03"
     {
-      time 2.311667 9.463412
+      time 2.311667 9.463413
       param "npc_kieran.talk03"
       fixedlength
       cctype "cc_master"

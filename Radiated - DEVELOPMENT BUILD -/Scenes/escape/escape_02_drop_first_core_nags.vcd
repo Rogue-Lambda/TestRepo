@@ -189,23 +189,21 @@ actor "Aperture_AI"
       time 127.666664 128.166656
       param ""
     }
-
     event firetrigger "backtorandom1"
     {
       time 0.000001 -1.000000
       param "2"
     }
-
   }
 }
-
+mapname "maps\escape_02.bsp"
 scalesettings
 {
-  "GestureTool" "100"
-  "ExpressionTool" "100"
+  "CChoreoView" "100"
   "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
   "RampTool" "100"
-  "CChoreoView" "16"
 }
 fps 60
 snap off
