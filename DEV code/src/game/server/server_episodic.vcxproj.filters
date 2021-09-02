@@ -1676,6 +1676,9 @@
     <ClInclude Include="hl2\npc_headcrab.h">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClInclude>
+    <ClInclude Include="hl2\npc_houndeye.h">
+      <Filter>Source Files\HL2 DLL</Filter>
+    </ClInclude>
     <ClInclude Include="episodic\npc_hunter.h">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClInclude>
@@ -1783,15 +1786,6 @@
     </ClInclude>
     <ClInclude Include="toolframework_server.h">
       <Filter>Tools Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_houndeye.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="pointhurt.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_bullsquid.h">
-      <Filter>Source Files\HL2 DLL</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -3160,6 +3154,9 @@
     <ClCompile Include="hl2\npc_headcrab.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
+    <ClCompile Include="hl2\npc_houndeye.cpp">
+      <Filter>Source Files\HL2 DLL</Filter>
+    </ClCompile>
     <ClCompile Include="episodic\npc_hunter.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
@@ -3514,13 +3511,7 @@
     <ClCompile Include="toolframework_server.cpp">
       <Filter>Tools Framework</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\npc_houndeye.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\trigger_super_armor.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_bullsquid.cpp">
+    <ClCompile Include="hl2\npc_mutated_antlion.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
   </ItemGroup>

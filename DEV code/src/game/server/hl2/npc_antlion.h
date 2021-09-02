@@ -415,4 +415,22 @@ extern bool IsAntlionWorker( CBaseEntity *pEntity );
 extern float AntlionWorkerBurstRadius( void );
 #endif // HL2_EPISODIC
 
+///
+/// Taz
+class CNPC_Mutated_Antlion : public CNPC_Antlion
+{
+public:
+
+	DECLARE_CLASS(CNPC_Mutated_Antlion, CNPC_Antlion);
+
+public:
+	virtual void	Event_Killed(const CTakeDamageInfo &info);
+	//virtual int		OnTakeDamage(const CTakeDamageInfo &info);
+	void Precache(void);
+protected:
+
+	void	CreateNugget(void);
+	int		GetNuggetDenomination(void);
+};
+
 #endif // NPC_ANTLION_H

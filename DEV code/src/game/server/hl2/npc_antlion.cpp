@@ -188,6 +188,7 @@ CNPC_Antlion::CNPC_Antlion( void )
 }
 
 LINK_ENTITY_TO_CLASS( npc_antlion, CNPC_Antlion );
+LINK_ENTITY_TO_CLASS(npc_mutated_antlion, CNPC_Mutated_Antlion);
 
 //==================================================
 // CNPC_Antlion::m_DataDesc
@@ -4525,6 +4526,17 @@ bool CAntlionRepellant::IsPositionRepellantFree( Vector vDesiredPos )
 }
 
 LINK_ENTITY_TO_CLASS( point_antlion_repellant, CAntlionRepellant);
+///
+///Taz
+
+/*void CNPC_Mutated_Antlion::Precache(void)
+{
+	BaseClass::Precache();
+
+	
+
+	SetModelName(AllocPooledString("models/mutated_antlion.mdl"));
+}*/
 
 
 //-----------------------------------------------------------------------------
